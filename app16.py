@@ -21,7 +21,7 @@ fig, ax = plt.subplots(2,2, figsize=(12,8))
 plt.subplot(221)
 plt.plot(  list( money['A_MONTH'] ), list( money['A_RATE'] ), color='red' , marker='o'     ) 
 plt.xticks(tuple(money['A_MONTH']) )
-plt.title('America rate')
+plt.title('America rate')  
 
 
 plt.subplot(222)
